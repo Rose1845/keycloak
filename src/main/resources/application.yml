@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: keycloak
   security:
     oauth2:
       resourceserver:
@@ -11,5 +13,5 @@ server:
 jwt:
   auth:
     converter:
-      resource-id: vinotech-springboot-rest-api
-      principle-attribute: preferred_username
+      resource-id: fooddelivery-api
+      principle-attribute: rose
